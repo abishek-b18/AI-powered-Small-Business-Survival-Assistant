@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>Business Dashboard</h1>
+
+    <div class="card">
+        <h2>Business Type</h2>
+        <p>{{ business }}</p>
+    </div>
+
+    <div class="card">
+        <h2>AI Prediction</h2>
+        <p>{{ result }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Sales</h2>
+        <p>{{ sales }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Expenses</h2>
+        <p>{{ expenses }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Customers</h2>
+        <p>{{ customers }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Profit</h2>
+        <p>{{ profit }}</p>
+    </div>
+
+</div>
+
+</body>
+</html>
