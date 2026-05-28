@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Business Details</h1>
+
+    <form action="/dashboard" method="POST">
+
+        <label>Select Business Type</label>
+
+        <select name="business">
+            <option>Restaurant</option>
+            <option>Retail Shop</option>
+            <option>Pharmacy</option>
+            <option>Startup</option>
+            <option>Supermarket</option>
+            <option>Online Store</option>
+        </select>
+
+        <input type="number" name="sales" placeholder="Monthly Sales" required>
+        <input type="number" name="expenses" placeholder="Monthly Expenses" required>
+        <input type="number" name="customers" placeholder="Customers Count" required>
+        <input type="number" name="profit" placeholder="Profit" required>
+
+        <button type="submit">Analyze Business</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
