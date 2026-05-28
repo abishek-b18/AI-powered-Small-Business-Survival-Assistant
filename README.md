@@ -183,6 +183,22 @@ The platform is designed with a premium SaaS-style futuristic interface instead 
 * Real-Time Dashboard Updates
 
 ---
+AI-Small-Business-Survival-Assistant/
+│
+├── app.py
+├── requirements.txt
+├── train_model.py
+├── business_dataset.csv
+├── models/
+│   └── business_risk_model.pkl
+├── static/
+│   ├── style.css
+│   └── script.js
+├── templates/
+│   ├── index.html
+│   ├── dashboard.html
+│   └── login.html
+└── README.md
 
 # 🧩 Machine Learning Models Used
 
